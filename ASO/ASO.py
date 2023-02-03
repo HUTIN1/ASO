@@ -27,7 +27,7 @@ class ASO(ScriptedLoadableModule):
         ScriptedLoadableModule.__init__(self, parent)
         self.parent.title = "ASO"  # TODO: make this more human readable by adding spaces
         self.parent.categories = ["Automated Dental Tools"]  # set categories (folders where the module shows up in the module selector)
-        self.parent.dependencies = []  # TODO: add here list of module names that this module requires
+        self.parent.dependencies = ['CrownSegmentation']  # TODO: add here list of module names that this module requires
         self.parent.contributors = ["Nathan Hutin (UoM), Luc Anchling (UoM)"]  # TODO: replace with "Firstname Lastname (Organization)"
         # TODO: update with short description of the module and a link to online module documentation
         self.parent.helpText = """

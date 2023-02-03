@@ -4,13 +4,13 @@ project(ASO)
 
 #-----------------------------------------------------------------------------
 # Extension meta-information
-set(EXTENSION_HOMEPAGE "https://www.slicer.org/wiki/Documentation/Nightly/Extensions/ASO")
+set(EXTENSION_HOMEPAGE "https://github.com/lucanchling/ASO/blob/main/README.md")
 set(EXTENSION_CATEGORY "Automated Dental Tools")
 set(EXTENSION_CONTRIBUTORS "Nathan Hutin (University of Michigan), Luc Anchling (University of Michigan)")
 set(EXTENSION_DESCRIPTION "This is an example of a simple extension")
 set(EXTENSION_ICONURL "https://www.example.com/Slicer/Extensions/ASO.png")
 set(EXTENSION_SCREENSHOTURLS "https://www.example.com/Slicer/Extensions/ASO/Screenshots/1.png")
-set(EXTENSION_DEPENDS "NA") # Specified as a list or "NA" if no dependencies
+set(EXTENSION_DEPENDS "CrownSegmentation") # Specified as a list or "NA" if no dependencies
 
 
 #-----------------------------------------------------------------------------
